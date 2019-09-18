@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    text-transform: uppercase;
+}
+.menu a:hover, .ativo{
+    color:#DDDDDD;
+    border-bottom: 2px solid white;
+    padding-bottom: 6px;
+    transition: 100ms;
+
+}
+header{
+    background-color: #FF0909;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav{
+    display: flex;
+    width: 1366px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.banner{
+    width: 1366px;
+    margin: auto;
+    position: relative;
+    
+}
+.texto-banner{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: 350px;
+    font-family: arial;
+    line-height: 2.2;
+    font-size: 15px;
+    margin-top: 75px;
+}
+.card p{
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+.btn{
+    background-color: #FF0909;
+    color:white;
+    text-decoration: none;
+    font-family:arial;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+.texto-banner .t1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+.texto-banner .t2{
+    font-family: arial;
+    font-size: 30px;
+}
+.texto-banner p{
+    margin-bottom: 25px;
+}
+.btn:hover{
+    color: #FF0909;
+    background-color: black;
+    transition: 180ms;
+    border: 2px solid #FF0909;
+}
+footer{
+    text-align: center;
+    background-color:#FF0909; 
+    padding-top: 35px;
+    padding-bottom:35px;
+    color: white;
+    font-family: arial;
+    margin-top: 70px;
+    font-size: 12px;
+}
+
+/*Media Queries*/
+   
+     /* Tablet */
+
+    @media (max-width:1169px){
+        nav{
+            width:768px;
+        }
+        .banner img{
+            width: 100%;
+        }
+        .banner{
+            width:768px;
+        }
+        .texto-banner .t1{
+            font-size: 22px;
+        }
+        .texto-banner .t2{
+            font-size: 12px;
+        }
+        .container{
+            width: 720px;
+        }
+    }
+    /*Smartphone*/
+
+    @media (max-width:767px){
+        nav{
+            width: 368px;
+            flex-direction: column;
+        }
+        .menu{
+            flex-direction: column;
+            width: 120px;
+            padding-top: 15px;
+        }
+        .menu li{
+            padding-top:12px;
+        }
+        .banner img{
+            display: none;
+        }
+        .texto-banner{
+            color: white;
+            position: static;
+            padding-top: 20px;
+            padding-left:75px;
+        }
+        .banner{
+            background-color: black;
+            width: 368px;
+        }
+        .container{
+            width: 350px;
+        }
+        .btn{
+            margin-left: 40px;
+        }
+    }
+

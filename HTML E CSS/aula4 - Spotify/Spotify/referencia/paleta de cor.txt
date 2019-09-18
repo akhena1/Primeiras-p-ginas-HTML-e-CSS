@@ -1,0 +1,11 @@
+cores
+
+header
+#000000
+
+main
+#19E68C
+
+
+prerodape
+#222326

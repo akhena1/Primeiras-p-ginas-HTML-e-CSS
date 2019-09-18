@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+         <title>Aula 2</title>
+         <meta charset="UTF-8">
+         <style>
+             .botao{
+                color: white;
+                background-color: blue;
+                text-decoration: none;
+                margin: 10px;
+                padding: 10px 20px;
+                border-radius: 4px;
+                font-family: arial;
+
+                
+             }
+             table,td,th,tr{
+                 border:1px solid black;
+                 border-collapse: collapse;
+             }
+             table{
+                 width: 50%;
+                 margin-top:30px;
+             }
+            .menu{
+                list-style:none;
+                display: flex;
+                justify-content: space-between;
+                width: 300px;
+                background-color: gainsboro;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 40px;
+                border-radius: 4px;
+                margin-bottom: 30px;
+             }
+             .menu a{
+                 text-decoration: none;
+                 color: dimgray;
+                 font-family: arial;
+                 
+             }
+             .menu a:hover{
+                 color:red;
+             }
+         </style>
+    </head>
+    <body>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+        <a href="http://google.com.br" target="_blank" class="botao">Google</a>
+
+        <table>
+            <thead>
+                <th>Nº do pedido</th>
+                <th>Data</th>
+                <th>Valor</th>
+                <th>Cliente</th>
+            </thead>
+            <tbody>
+               <tr>
+                    <td>0967</td>
+                    <td>26/08/2019</td>
+                    <td>R$99,90</td>
+                    <td>Thiago Rocha</td>
+               </tr>
+               
+               <tr>
+                   <td>0968</td>
+                   <td>26/08/2019</td>
+                   <td>R$ 109,99</td>
+                   <td>Saulo</td>
+               </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Paginação</td>
+                </tr>
+            </tfoot>
+        </table>
+        
+    </body>
+</html>   
+    
+
+                                           

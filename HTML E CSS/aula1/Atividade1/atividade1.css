@@ -1,0 +1,46 @@
+*{margin:0px;
+}
+.title{
+    font-size: 30px;
+    background-color: #D4CCE6;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: #050404;
+
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    font-family: 'Segoe UI';
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 20px;
+    color: #707070;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #E7D3DD;
+    font-size: 15px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    width: 1200px;
+    color:#050404;
+    text-align: center;
+
+}
+.banner1{
+  margin-bottom: 50px;
+
+}
+
+.banner2{
+    width: 1200px;
+    margin-top: 68px;
+    margin-bottom: -10px;
+}
